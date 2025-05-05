@@ -71,11 +71,7 @@ NavMeshProjectSettings:
     cost: 1
   m_LastAgentTypeID: -887442657
   m_Settings:
-<<<<<<< HEAD
-  - serializedVersion: 2
-=======
   - serializedVersion: 3
->>>>>>> Tuấn-Anh
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -88,11 +84,7 @@ NavMeshProjectSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-<<<<<<< HEAD
-    accuratePlacement: 0
-=======
     buildHeightMesh: 0
->>>>>>> Tuấn-Anh
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:

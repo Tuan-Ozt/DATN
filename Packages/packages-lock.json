@@ -1,6 +1,5 @@
 {
   "dependencies": {
-<<<<<<< HEAD
     "com.unity.2d.animation": {
       "version": "10.1.4",
       "depth": 1,
@@ -58,7 +57,7 @@
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {}
     },
@@ -75,25 +74,13 @@
     },
     "com.unity.2d.tilemap": {
       "version": "1.0.0",
-      "depth": 1,
-=======
-    "com.unity.2d.sprite": {
-      "version": "1.0.0",
       "depth": 0,
-      "source": "builtin",
-      "dependencies": {}
-    },
-    "com.unity.2d.tilemap": {
-      "version": "1.0.0",
-      "depth": 0,
->>>>>>> Tuấn-Anh
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.tilemap": "1.0.0",
         "com.unity.modules.uielements": "1.0.0"
       }
     },
-<<<<<<< HEAD
     "com.unity.2d.tilemap.extras": {
       "version": "4.1.0",
       "depth": 1,
@@ -105,14 +92,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.burst": {
-      "version": "1.8.21",
-      "depth": 3,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.mathematics": "1.2.1",
-        "com.unity.modules.jsonserialize": "1.0.0"
-=======
     "com.unity.ads": {
       "version": "4.4.2",
       "depth": 0,
@@ -138,22 +117,26 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.services.analytics": "1.0.4"
->>>>>>> Tuấn-Anh
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.burst": {
+      "version": "1.8.21",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-<<<<<<< HEAD
       "version": "2.8.1",
-=======
-      "version": "2.7.1",
->>>>>>> Tuấn-Anh
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
     "com.unity.collections": {
       "version": "2.5.1",
       "depth": 2,
@@ -166,15 +149,12 @@
       },
       "url": "https://packages.unity.com"
     },
-=======
->>>>>>> Tuấn-Anh
     "com.unity.ext.nunit": {
       "version": "2.0.5",
       "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },
-<<<<<<< HEAD
     "com.unity.feature.2d": {
       "version": "2.0.1",
       "depth": 0,
@@ -190,8 +170,6 @@
         "com.unity.2d.aseprite": "1.1.9"
       }
     },
-=======
->>>>>>> Tuấn-Anh
     "com.unity.ide.rider": {
       "version": "3.0.35",
       "depth": 0,
@@ -210,7 +188,6 @@
       },
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
     "com.unity.inputsystem": {
       "version": "1.14.0",
       "depth": 0,
@@ -227,8 +204,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-=======
->>>>>>> Tuấn-Anh
     "com.unity.multiplayer.center": {
       "version": "1.0.0",
       "depth": 0,
@@ -237,31 +212,30 @@
         "com.unity.modules.uielements": "1.0.0"
       }
     },
-<<<<<<< HEAD
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
       "depth": 3,
-=======
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "3.2.1",
-      "depth": 2,
->>>>>>> Tuấn-Anh
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-=======
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.purchasing": {
       "version": "4.12.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.services.core": "1.12.5",
         "com.unity.modules.androidjni": "1.0.0",
-        "com.unity.services.core": "1.12.5"
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -271,8 +245,8 @@
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
-        "com.unity.services.core": "1.12.4"
+        "com.unity.services.core": "1.12.4",
+        "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -281,13 +255,12 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.androidjni": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
-        "com.unity.modules.androidjni": "1.0.0"
+        "com.unity.modules.unitywebrequest": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
->>>>>>> Tuấn-Anh
     "com.unity.test-framework": {
       "version": "1.5.1",
       "depth": 0,
@@ -298,7 +271,6 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       }
     },
-<<<<<<< HEAD
     "com.unity.test-framework.performance": {
       "version": "3.1.0",
       "depth": 3,
@@ -309,8 +281,6 @@
       },
       "url": "https://packages.unity.com"
     },
-=======
->>>>>>> Tuấn-Anh
     "com.unity.timeline": {
       "version": "1.8.7",
       "depth": 0,
@@ -332,7 +302,6 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-<<<<<<< HEAD
     "com.unity.visualscripting": {
       "version": "1.9.6",
       "depth": 0,
@@ -340,7 +309,9 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
-=======
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.12",
       "depth": 0,
@@ -348,7 +319,6 @@
       "dependencies": {
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
->>>>>>> Tuấn-Anh
       },
       "url": "https://packages.unity.com"
     },
